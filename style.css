@@ -1,0 +1,59 @@
+body{
+    /*background-color: rgba(0,50,0,0.1);*/
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    align-self: center;
+}
+h1:hover{
+    color: dodgerblue;
+}
+.canvas{
+align-self: center;
+width: 500px;
+height: 500px;
+    
+}
+canvas{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.8);
+    align-self: center;
+}
+.form{
+    align-self: center;
+}
+.f{
+    margin-top: 5px;
+    align-self: center;
+}
+.btns{
+    align-self: center;
+}
+.btn{
+    margin-top: 5px;
+    width: fit-content;
+    padding: 3px;
+    font-size: xx-large;
+    border-radius: 50%;
+}
+.add{
+    
+    background-color: green;
+    color: white;
+}
+.add:hover{
+    background-color: white;
+    color: green;
+}
+.remove{
+    background-color: red;
+    color: white;
+}
+.remove:hover{
+    background-color: white;
+    color: red;
+}

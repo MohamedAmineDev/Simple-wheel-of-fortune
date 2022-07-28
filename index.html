@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WinWheel demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>WinWheel demo</h1>
+    
+    <canvas id="game"></canvas>
+    <div class="btns">
+        <button class="btn add" onclick="game.startAnimation()">Start</button>
+    <button class="btn remove" onclick="restGame()">Reset</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="Winwheel.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
